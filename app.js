@@ -11,7 +11,7 @@ require("./root/quary");
 
 const port=process.env.PORT||3000;
 app.listen(port,()=>{
-    console.log("connection successful wiht 5000");
+    console.log("connection successful wiht 3000");
 })
 
 
