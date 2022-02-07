@@ -1,0 +1,33 @@
+/* body{
+    background-color: rgb(241, 233, 255);
+}
+.register_form_contenar{
+  top: 50px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+}
+.before_register_form_contenar{
+    width: 100%;
+    padding-top: 50px;
+}
+.register_form_contenar legend{
+    font-size: medium;
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+    text-align: center;
+} */
+
+
+/* responsive----------------------------------- */
+
+
+@media only screen and (max-width: 800px) {
+   .register_form_contenar{
+        width: 90%;
+    }
+}

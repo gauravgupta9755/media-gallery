@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1000px) {
+
+    .friend_detail{
+        width: 100% !important;
+        display: flex !important;
+    }
+    .friend_data{
+        width: 100% !important;
+    }
+
+}

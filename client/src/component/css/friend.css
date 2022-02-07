@@ -1,0 +1,65 @@
+.friend::-webkit-scrollbar{
+  display: none;
+}
+
+iframe::-webkit-scrollbar{
+display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contenar{
+    display: inline !important;
+  }
+  .card {
+    width: 100vw !important;
+    margin: 0px !important;
+    padding: 0px;
+    position: relative;
+    top: 5vw;
+  }
+  .detail{
+    width: 40% !important;
+  }
+  .card-title{
+    font-size: 4vw !important;
+  }
+  .card-text{
+    font-size: 3vw !important;
+  }
+  .update{
+    margin: 0px;
+    padding: 0px;
+    width: 60% !important;
+    padding:10px;
+  }
+  .friend_contenar{
+    width: 100vw;
+    margin: 1vw !important;
+    height: 50vw !important;
+    
+  }
+  .friend{
+    width: 50%;
+    margin: 2vw !important;
+    height: 100% !important;
+    padding-top: 3vw !important;
+  }
+  .second{
+    width: 100% !important;
+    height: 50vw !important;
+  }
+  .btn{
+    width: 15vw !important;
+    font-size: 2vw !important;
+  }
+  .fs-6{
+    font-size: 1vw !important;
+  }
+  .friend_logo{
+    width: 8vw !important;
+    height: 8vw !important;
+  }
+  .f_c{
+    height: 10vw !important;
+  }
+}

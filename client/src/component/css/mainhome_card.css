@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:ital,wght@0,100;0,400;1,300&display=swap');.card_contenar{
+    display: flex;
+    width: 40vw;
+    /* border: 1px solid black; */
+    margin: 5px;
+    
+    color:crimson;
+    padding: 5px;
+    height: 22vw;
+   
+}
+.left_card_contenar{
+    width: 60%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.right_card_contenar{
+    padding: 20px;
+    background-color:transparent;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 39%;
+    height: 100%;
+   
+    font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+.right_card_contenar h1{
+   
+    color: rgb(0, 0, 0);
+    
+}
+.right_card_contenar span{
+    font-size: small;
+   
+}
+.right_card_contenar p{
+    /* height: 20%; */
+    overflow: hidden;
+    
+}
+.btn{
+    margin-top: auto;
+    height: auto;
+    font-size: 1em;
+    padding: 4px;
+}
+.btn button{
+    background-color: rgb(238, 170, 170);
+}
+footer{
+    position:relative;
+margin-top: 20%;
+   
+}
+
+
+/* main_home component style------------- */
+.home_contenar{
+    display: flex;
+    height: 100vh;
+    margin-top: 20px;
+   
+     
+}
+.left_contenar{
+    
+    padding: 5px;
+}
+
+.left_contenar::-webkit-scrollbar {
+    display: none;
+  }
+
+.vertical_line{
+    width: 1px;
+    background-color: black;
+    height: 100%;
+   position:inherit;
+   margin: 5px;
+  
+}
+
+.right_contenar{
+    
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.right_contenar div::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  /* news component style----------------- */
+  .home_right_contenar h1{
+      
+      background-color: crimson;
+  }
+  .news_contenar{
+      display: flex;
+      width: 80%;
+      margin: 20px;
+      font-family: 'Oswald', sans-serif;
+      font-family: 'Roboto Mono', monospace;
+            
+  }
+  .font-family{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .news_contenar h1{
+    background: crimson;
+  }
+  .news_contenar img{
+      margin-right: 5px;
+  }
+  .news_contenar a{
+      color: black;
+      font-weight: bold;
+  }
+  .text_link{
+      text-decoration: none;
+      outline: none;
+  }
+
+  .hidescrollbar::-webkit-scrollbar{
+display: none;
+  }

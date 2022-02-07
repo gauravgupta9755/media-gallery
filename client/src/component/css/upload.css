@@ -1,0 +1,27 @@
+body{
+  
+}
+.upload_contenar{
+    
+    margin-top: 12vw;
+    width: 50%;
+    
+    background-color: rgb(63, 63, 63);
+    color: white;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+.right{
+margin-left: 10px;
+}
+.check_box{
+display: none;
+}
+
+@media only screen and (max-width: 992px){
+    .upload_contenar{
+        width: 90%;
+    }
+}

@@ -1,0 +1,13 @@
+
+.news_con::-webkit-scrollbar{
+display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .cant{
+        position: relative !important;
+        width: 100% !important;
+    }
+    .home_contenar{
+        padding: 4px !important;
+    }
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.contener{
+    padding-top: 3vw;
+    align-content: center;
+    justify-content: center;
+    
+    display: flex;
+}
+.card{
+    display: -webkit-inline-box;
+    width: 60vw;
+    margin: auto;
+    position: inherit;
+    
+   
+}
+.profile_logo{
+    width: 15vw;
+    height:15vw;
+    margin: 1vw;
+}
+.detail{
+    width: 40%;
+    
+}
+.update
+{
+width: 50%;
+align-items: center;
+justify-content: center;
+font-family: 'Oswald', sans-serif;
+
+
+font-weight: bold;
+font-style: oblique;
+}
+.update li{
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.card-text span{
+    font-style: 1vw;
+
+}
+
+
+.favrate_collection{
+  padding: 5px;
+  position: inherit;
+
+}
+.favrate_collection img{
+    width: 20vw;
+}
+.button_contenar{
+    display: flex;
+    font-size: 20px;
+}
+.position-inherit{
+    position: inherit;
+}
+.z-index{
+    z-index: 4;
+}
+
+@media only screen and (max-width: 1000px){
+    .contener{
+        display: inline;
+       align-items: center;
+       justify-content: center;
+     
+    }
+    .card{
+       width: 95%;
+       margin: 4vw !important;
+        height: auto !important;
+       
+    }
+    .favrate_collection{
+        margin-top: 4vw !important;
+        width: 100% !important;
+    }
+    .favrate_collection h4{
+        font-size:4vw !important;
+    }
+    .favrate_collection h6{
+        font-size: 3vw;
+    }
+    .favrate_collection img{
+     width: 30vw !important;
+    }
+    .favrate_collection video{
+        width: 30vw !important;
+    }
+    .favrate_collection iframe{
+        width: 30vw !important;
+    }
+    .check_update{
+        width: auto !important;
+        
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .check_update h5{
+        font-size: 5vw;
+    }
+    .check_update input{
+      width: 50%;
+      margin:auto;
+    }
+}

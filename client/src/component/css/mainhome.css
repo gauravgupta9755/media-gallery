@@ -1,0 +1,12 @@
+.gallery_image{
+    /* background-image: url("./gallery.jpg"); */
+}
+
+@media only screen and (max-width:992px){
+    .mainhomecontenar{
+        height: 50vw;
+    }
+    .backimage{
+        height: 60vw;
+    }
+}

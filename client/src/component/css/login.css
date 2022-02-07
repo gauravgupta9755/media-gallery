@@ -1,0 +1,379 @@
+/* .login_form_contenar{
+  padding-top: 50px;
+}
+.login_form_contenar form{
+    margin-top: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 2x 2px 10px blue;
+    border-radius: 5px;
+    margin-top: auto;
+    background-color: gray;
+
+} */
+
+
+/* new component styling----------------------- */
+
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root,html,body{
+  width: 100%;
+  height: 100%;
+}
+.l1{
+  color: black;
+  text-decoration:none;
+  margin: 1vw;
+}
+.l1:hover{
+  
+  text-decoration:underline;
+}
+.d1{
+  padding:2vw;
+  float: right;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin:1vw;
+}
+.d2{
+  width: 100%;
+ 
+  background-color:#fcff64;
+  border-bottom: 1px solid;
+  border-radius: 0% 0% 50% 50%;
+
+}
+.d3{
+   
+  /* background-image: url('./image/p5.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: cornsilk;
+  
+  width:auto;
+  border-radius: 2vw;
+  border:1px solid;
+  position:absolute;
+  top: 19vw;
+  left:15vw;
+  padding:1vw;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  box-shadow: black 0 0 1vw;
+  
+}
+.d6 input,.d3 button{
+  background-color:rgba(0, 255, 255, 0);
+  display: block;
+  border: none;
+  border-bottom: 1px solid red;
+  margin:1vw;
+  outline:none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.d3 button{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.d6 input{
+  width:30vw;
+}
+
+.d4 {margin: 0;
+  font-size:20vw;
+  font-family: Georgia;
+  padding:0;
+}
+.s1{
+  font-size:3vw;
+  /* position:relative; */
+  bottom: 3vw;
+  font-family: Georgia;
+  margin-left: 2vw;
+  margin-top: 2vw;
+
+}
+.s2{
+  font-size:4vw;
+  /* position:relative; */
+  bottom: 5vw;
+  font-family: 'Lobster';
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+.d3 input:focus{
+  border-color:crimson;
+  border-width: 3px;
+  }
+  .d6{
+    display: inline-block;
+    
+  }
+  .d5{
+    text-align: center;
+    float: right;
+    margin-left: 2vw;
+  
+
+  }
+  .d5 h2{
+    font-size:2vw;
+  }
+  .d5 h4{
+    font-size:2vw;
+  }
+  .d5 .icon{
+    padding:1vw;
+    font-size:2vw;
+  }
+  .d5 .icon:hover{
+    color:rgb(42, 187, 245);
+  }
+  @media only screen and (max-width:992px){
+    .d1 {
+      float: none;
+      text-align: center;
+    }
+    .d3{
+      position:unset;
+      margin:2vw;
+      text-align: center;
+    }
+    .d5{
+      float: none;
+    }
+    .s1,.s2{
+      position:unset;
+    }
+    .d2{
+      text-align: center;
+    }
+  }
+  .d7{
+    background-color:deepskyblue;
+  }
+  .d8{
+    /* background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/flowers-still%20life_CCINHZXPBO.jpg'); */
+    position: unset;
+    
+  }
+  .d10{
+    background-color:#fcff64;
+   width:70%;
+  }
+  .d10 h1{
+    display: inline;
+  }
+  .d11{
+    text-align:center;
+    padding:1vw;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 255, 179);
+  }
+  .d12 img{
+    width:150px;
+    height:150px;
+    border-radius :50%;
+    margin:1vw;
+  }
+  .d13{
+    width: 70vw;
+    background-color:rgb(255, 0, 255);
+    margin: auto;
+    text-align:justify;
+    padding: 2vw;
+    font-size: 18px;
+    font-family: 'Scheherazade New';
+    border:4px double rgb(255, 136, 0);
+  }
+  .d13>h1{
+    display: inline;
+  }
+.d11 .d1{
+  display: block;
+  float:unset;
+}
+.d15 img{
+  width:120px;
+  height:120px;
+  border-radius :50%;
+  border:2px solid rgb(252, 255, 91);
+  box-shadow:0 0 .5vw red;
+ padding:.5vw;
+}
+.d15{
+  background-color:mediumspringgreen;
+  text-align:center;
+  padding:.5vw;
+}
+
+.d{
+  position:absolute;
+  display:inline;
+  float:left;
+  margin-left: 2vw;
+  font-size:25px;
+  font-family:'Abril Fatface';
+  color:rgb(0, 110, 255);
+  top:0;
+  left:0;
+}
+.name{
+  margin: auto;
+}
+.d .name{
+  color:crimson;
+  font-size: 30px;
+}
+.d h2{
+  margin:1vw;
+}
+.d15 a {
+  color:rgb(202, 33, 207);
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  font-weight: bold;
+  font-family:'Scheherazade New';
+  cursor: pointer;
+}
+.d15 a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(39, 115, 255);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.d15 a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.d16{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.d17{
+  width:30%;
+  background:rgb(26, 238, 253);
+  height:100%;
+  text-align:center;
+  border:1px double pink;
+  border-radius:2vw;
+  margin: 1vw;
+  box-shadow: 0 0 1vw pink;
+  
+}
+.d18{
+  width:50%;
+  background:rgb(231, 229, 229);
+  height:100%;
+  margin: 1vw;
+  border:1px double pink;
+  border-radius:2vw;
+  box-shadow: 0 0 1vw pink;
+  text-align: center;
+}
+.d19{
+  height:100%;
+  width:20%;
+  background:rgb(243, 109, 255);
+  margin: 1vw;
+  border:1px double pink;
+  border-radius:2vw;
+  box-shadow: 0 0 1vw pink;
+}
+.d14{
+  height:100%;
+}
+.d17 input{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  margin:2vw;
+  width:25%;
+  border:none;
+  background:none;
+  border-bottom: 2px solid rgba(255, 0, 0, 0.829);
+  font-size: 20px;
+  outline:none;
+}
+.post{
+  background-color: rgb(255, 206, 206);
+  margin:1vw;
+  width:95%;
+  border-radius: 2vw;
+  border:2px solid black;
+}
+.i{
+  font-size:30px;
+  margin:1vw;
+  padding:1vw;
+  position:relative;
+  right:1vw;
+}
+.post span{
+  position: relative;
+  left:3.5vw;
+}
+.i1{
+  color:skyblue;
+}
+.i2{
+  color:springgreen;
+}
+.i3{
+  color:tomato;
+}
+.massage{
+  color:rgb(206, 44, 255);
+ font-weight:bold;
+ padding:1vw;
+}
+.massage p{
+  margin:none;
+  padding:none;
+  display: inline;
+}
+.massage h5{
+  margin-bottom: 0;
+  color:black;
+}
+
